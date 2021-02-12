@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgb(150, 239, 245);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 600px 200px;
+    grid-gap: 10px;
+}
+
+.nav-bar{
+    grid-column: 1 / -1;
+    box-shadow: 1px 1px 9px  blue;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.menu{
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo a{
+    color:black;
+text-decoration: none;
+}
+
+.logo a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.menu-item{
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    color: rgb(255, 0, 0);
+}
+
+.left{
+    grid-column: 1 / 3;
+}
+
+.left-container{
+    height: 100%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.left h1{
+    font-size: 72px;
+    line-height: 10px;
+}
+
+.btn{
+    width: 180px;
+    height: 50px;
+    background-color: green;
+    color: rgb(227, 228, 222);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px #bbb;
+}
+.btn:hover{
+    background-color: rgb(18, 155, 18);
+    color:rgb(252, 0, 0);
+}
+
+.btn p{
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.right{
+    grid-column: 3 / 5;
+}
+
+.right-container{
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.img{
+    width: 150px;
+    height: 157px;
+}
+
+a.hover{
+    opacity: 0,5;
+}
+
+.box{
+    padding-top: 10px;
+    margin-left: 17px;
+}
